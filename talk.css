@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
+.talk{
+    padding: 100px 0;
+    background: #f2f2fe;
+}
+.talk-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.talk-title h2{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+.talk-title p{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+    margin-top: 20px;
+    width: 490px;
+}
+.talk-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk-text{
+    margin-top: -53px;
+}
+.talk-text h3{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+.talk-text p{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+    font-weight: 400;
+    color: #6F8BA4;
+
+}
+.talk-form{
+    margin-top: 30px;
+}
+.talk-form-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.talk-form-2 textarea{
+    padding: 15px;
+    border-radius: 20px;
+    color: #777;
+    outline: none;
+    border: 1px solid #eee;
+    width: 580px;
+    margin-left: 10px;
+}
+
+.talk-form-2 button{
+    margin-top: 30px;
+    padding: 11px;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #8261ee;
+    color: white;
+    margin-left: 14px;
+    border: none;
+    transition: 0.4s ease;
+}
+.talk-form-2 button:hover{
+    background-color: rgb(250, 107, 214);
+}
+.talk-form-1{
+    padding: 10px;
+}
+.talk-form-1 input{
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #eee;
+    width: 270px;
+}
+
+@media screen and (max-width:480px) {
+    .talk-title p{
+        width: 70%;
+    }
+    .talk-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .talk{
+        margin-top: 30px;
+    }
+    .talk-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .talk-text h3{
+        margin-top: 60px;
+    }
+    .talk-form-1{
+        display: flex;
+        flex-direction: column;
+    }
+    #space{
+        margin-top: 20px;
+    }
+    .talk-form-2 textarea{
+        width: 200px;
+    }
+    .talk-form-1 input{
+        width: 200px;
+    }
+    .talk-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .talk-text p{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:720px) {
+    .talk-title p{
+        width: 60%;
+    }
+    .talk-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .talk{
+        margin-top: 30px;
+    }
+    .talk-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .talk-form-2 textarea{
+        width: 200px;
+        margin-left: -100px;
+    }
+    .talk-form-1 input{
+        width: 200px;
+    }
+    .talk-form-2 button{
+        margin-left: -52px;
+    }
+    .talk-text h3{
+        margin-top: 60px;
+    }
+    .talk-form-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    #space{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:721px) and (max-width:1024px) {
+    .talk-title p{
+        width: 60%;
+    }
+    .talk-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .talk{
+        margin-top: 30px;
+    }
+    .talk-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .talk-form-2 textarea{
+        width: 200px;
+        margin-left: -100px;
+    }
+    .talk-form-1 input{
+        width: 200px;
+        margin-left: 0;
+    }
+    .talk-form-2 button{
+        margin-left: -100px;
+    }
+    .talk-text h3{
+        margin-top: 60px;
+    }
+    .talk-form-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    #space{
+        margin-top: 20px;
+    }
+
+}

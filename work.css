@@ -1,0 +1,121 @@
+.work{
+    padding: 0;
+}
+.work-container{
+    height: 450px;
+    background: url('./Assets/work-process-bg.png');
+}
+.work-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.work-text h2{
+    margin-top: 70px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+.work-text p{
+    margin-top: 10px;
+    width: 490px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.work-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 180px;
+    width: 160px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 14px 14px 3px -2px rgba(223, 223, 223, 0.52);
+}
+.work-item-image{
+    margin-top: -10px;
+}
+.work-item-text{
+    width: 60%;
+    margin-top: 10px;
+}
+.work-item-text h2{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    font-family: 'Raleway', sans-serif;
+}
+.work-item-text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width:480px) {
+    .work-text p{
+        width: 60%;
+    }
+    .work-cards{
+        flex-wrap: wrap;
+    }
+    .work-container{
+        height: 900px;
+    }
+    #just1{
+        margin-bottom: 20px;
+    }
+    #just2{
+        margin-bottom: 20px;
+    }
+    .work{
+        padding: 100px 0;
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px){
+    .work-text p{
+        width: 60%;
+    }
+    .work-cards{
+        flex-wrap: wrap;
+    }
+    .work-container{
+        height: 650px;
+    }
+    #just1{
+        margin-bottom: 20px;
+    }
+    #just2 {
+        margin-bottom: 20px;
+    }
+    .work {
+        padding: 100px 0;
+    }
+}
+@media screen and (min-width:721px) and (max-width:1024px){
+    .work-text p {
+        width: 60%;
+    }
+    .work-cards {
+        flex-wrap: wrap;
+    }
+    .work-container {
+        height: 580px;
+    }
+    .work {
+        padding: 100px 0;
+    }
+}
